@@ -97,6 +97,87 @@
     font-weight: bold;
 }
 
+
+.second-section {
+    flex-direction: column;
+    padding: 4px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.img-iphone14pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    
+}
+
+.img-iphone14pro img {
+    width:100%;
+    height:100%;
+}
+
+.image-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+
+}
+
+.cta-links{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+}
+
+.cta-links a {
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: .012em;
+    padding: 0.5em;
+}
+
+
+
+.img-iphone14 {
+    display: flex;
+    width: 100%;
+    height: 69vh;
+    
+}
+
+.img-iphone14 img {
+    width:100%;
+    height:100%;
+    padding: 4px;
+}
+
+.images-row-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 45vh;
+    padding: 4px;
+}
+
+.images-row-wrap div {
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+}
+
+.images-row-wrap img {
+    width:50%;
+    height:100%;
+    padding: 4px;
+}
+
 @media screen and (min-width:1024px) and (max-width:1600px) {
     .logo {
         margin-left: -170px
